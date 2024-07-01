@@ -1,0 +1,103 @@
+body{
+    background:  hsl(30, 54%, 90%);
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    flex-flow: nowrap;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(332, 51%, 32%);
+  }
+.container{
+    background: hsl(0, 0%, 100%) 90%;
+    border-radius: 15px;
+    text-align: start;
+    margin: 10%;
+    padding: 40px;
+}
+.titulo{
+    font-family: "Young Serif", serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+.omelette{
+    background: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+}
+.contenido{
+    font-size: 16px;
+    margin: 15px 0;
+}
+.preparacion{
+    background: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 10px;
+}
+.time{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px;
+}
+.letra{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+ul {
+    list-style: none;
+    padding: 0; 
+    margin-left: 10px; 
+    }
+    
+    li::before {
+    content: "\2022";
+    padding-right: 8px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    }
+li{
+    margin: 10px;
+}
+.ingrediente{
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-family: "Young Serif", serif;
+    margin: 20px 0;
+}
+hr{
+    color: hsl(30, 18%, 87%);
+    width: 98%;
+    font-weight: 600;
+}
+ol li {
+    list-style-type: none;
+    counter-increment: lista;
+    position: relative;
+    }
+    
+    ol li::before {
+    color: hsl(14, 45%, 36%);
+    content: counter(lista) ".";
+    left: -32px;
+    font-weight: 600;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    }
+.listo{
+    margin: 0 2%;
+}
+.numero{
+    text-align: center;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    margin: 0 50% ;
+}
